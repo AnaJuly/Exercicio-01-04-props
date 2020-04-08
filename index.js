@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Computador from './Computador';
+import Calc from './Calc';
+import Pessoa from './Pessoa';
 import './style.css';
 
 
@@ -35,6 +37,9 @@ class App extends Component {
     return (
         
       <div>
+      
+     <Calc/>
+     <Pessoa/>
      
       <Computador memoria = "2gb" processador = "Windows" hd= "3Tb" />
 
